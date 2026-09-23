@@ -1,0 +1,476 @@
+{
+ "$schema": "https://jerboa.dev/schemas/fx-composition/editable/v1/document.schema.json",
+ "formatVersion": 1,
+ "dimensions": {
+  "width": 1080,
+  "height": 1920
+ },
+ "duration": 3.0,
+ "composition": {
+  "dynamics": {
+   "entries": [
+    {
+     "animator": {
+      "enabled": true,
+      "keyframes": [
+       {
+        "easing": {
+         "type": "linear"
+        },
+        "id": "bar-scale-0",
+        "layerTime": 0,
+        "value": {
+         "type": "float",
+         "value": 0.0
+        }
+       },
+       {
+        "easing": {
+         "type": "cubicBezier",
+         "x1": 0.2,
+         "x2": 0.1,
+         "y1": 0.0,
+         "y2": 1.0
+        },
+        "id": "bar-scale-1",
+        "layerTime": 500,
+        "value": {
+         "type": "float",
+         "value": 100.0
+        }
+       }
+      ],
+      "type": "keyframes"
+     },
+     "target": {
+      "kind": "layer",
+      "layerId": 2,
+      "propertyType": "scaleX"
+     }
+    },
+    {
+     "animator": {
+      "enabled": true,
+      "keyframes": [
+       {
+        "easing": {
+         "type": "linear"
+        },
+        "id": "title-op-0",
+        "layerTime": 250,
+        "value": {
+         "type": "float",
+         "value": 0.0
+        }
+       },
+       {
+        "easing": {
+         "type": "cubicBezier",
+         "x1": 0.2,
+         "x2": 0.2,
+         "y1": 0.0,
+         "y2": 1.0
+        },
+        "id": "title-op-1",
+        "layerTime": 650,
+        "value": {
+         "type": "float",
+         "value": 100.0
+        }
+       },
+       {
+        "easing": {
+         "type": "linear"
+        },
+        "id": "title-op-2",
+        "layerTime": 2600,
+        "value": {
+         "type": "float",
+         "value": 100.0
+        }
+       },
+       {
+        "easing": {
+         "type": "linear"
+        },
+        "id": "title-op-3",
+        "layerTime": 2950,
+        "value": {
+         "type": "float",
+         "value": 0.0
+        }
+       }
+      ],
+      "type": "keyframes"
+     },
+     "target": {
+      "kind": "layer",
+      "layerId": 3,
+      "propertyType": "opacity"
+     }
+    },
+    {
+     "animator": {
+      "enabled": true,
+      "keyframes": [
+       {
+        "easing": {
+         "type": "linear"
+        },
+        "id": "title-y-0",
+        "layerTime": 250,
+        "value": {
+         "type": "float",
+         "value": 850.0
+        }
+       },
+       {
+        "easing": {
+         "type": "cubicBezier",
+         "x1": 0.15,
+         "x2": 0.1,
+         "y1": 0.0,
+         "y2": 1.0
+        },
+        "id": "title-y-1",
+        "layerTime": 700,
+        "value": {
+         "type": "float",
+         "value": 800.0
+        }
+       }
+      ],
+      "type": "keyframes"
+     },
+     "target": {
+      "kind": "layer",
+      "layerId": 3,
+      "propertyType": "positionY"
+     }
+    },
+    {
+     "animator": {
+      "enabled": true,
+      "keyframes": [
+       {
+        "easing": {
+         "type": "linear"
+        },
+        "id": "sub-op-0",
+        "layerTime": 600,
+        "value": {
+         "type": "float",
+         "value": 0.0
+        }
+       },
+       {
+        "easing": {
+         "type": "cubicBezier",
+         "x1": 0.2,
+         "x2": 0.2,
+         "y1": 0.0,
+         "y2": 1.0
+        },
+        "id": "sub-op-1",
+        "layerTime": 950,
+        "value": {
+         "type": "float",
+         "value": 100.0
+        }
+       },
+       {
+        "easing": {
+         "type": "linear"
+        },
+        "id": "sub-op-2",
+        "layerTime": 2600,
+        "value": {
+         "type": "float",
+         "value": 100.0
+        }
+       },
+       {
+        "easing": {
+         "type": "linear"
+        },
+        "id": "sub-op-3",
+        "layerTime": 2950,
+        "value": {
+         "type": "float",
+         "value": 0.0
+        }
+       }
+      ],
+      "type": "keyframes"
+     },
+     "target": {
+      "kind": "layer",
+      "layerId": 4,
+      "propertyType": "opacity"
+     }
+    }
+   ]
+  },
+  "id": "main",
+  "layers": [
+   {
+    "activeRange": {
+     "duration": 3000,
+     "start": 0
+    },
+    "blendMode": "normal",
+    "id": 4,
+    "name": "Subtitle",
+    "sourceText": {
+     "allCaps": false,
+     "applyFill": true,
+     "applyStroke": false,
+     "baselineShift": 0.0,
+     "boxPosition": [
+      0.0,
+      0.0
+     ],
+     "boxSize": [
+      960.0,
+      80.0
+     ],
+     "boxText": true,
+     "fillColor": [
+      0.8,
+      0.8,
+      0.86,
+      1.0
+     ],
+     "fontFamily": "Archivo Black",
+     "fontSize": 44.0,
+     "fontStyle": "Regular",
+     "justification": "center",
+     "strokeOverFill": false,
+     "strokeWidth": 0.0,
+     "text": "Setup check \u00b7 CLI 0.2.0",
+     "tracking": 0.0
+    },
+    "transform": {
+     "anchorPoint": [
+      0.0,
+      0.0
+     ],
+     "opacity": 100.0,
+     "orientation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "position": [
+      60.0,
+      1040.0
+     ],
+     "rotation": 0.0,
+     "rotationX": 0.0,
+     "rotationY": 0.0,
+     "scale": [
+      100.0,
+      100.0
+     ],
+     "skew": 0.0,
+     "skewAxis": 0.0
+    },
+    "type": "Text"
+   },
+   {
+    "activeRange": {
+     "duration": 3000,
+     "start": 0
+    },
+    "blendMode": "normal",
+    "id": 3,
+    "name": "Title",
+    "sourceText": {
+     "allCaps": false,
+     "applyFill": true,
+     "applyStroke": false,
+     "baselineShift": 0.0,
+     "boxPosition": [
+      0.0,
+      0.0
+     ],
+     "boxSize": [
+      960.0,
+      180.0
+     ],
+     "boxText": true,
+     "fillColor": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "fontFamily": "Archivo Black",
+     "fontSize": 130.0,
+     "fontStyle": "Regular",
+     "justification": "center",
+     "strokeOverFill": false,
+     "strokeWidth": 0.0,
+     "text": "TESSERACT",
+     "tracking": 0.0
+    },
+    "transform": {
+     "anchorPoint": [
+      0.0,
+      0.0
+     ],
+     "opacity": 100.0,
+     "orientation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "position": [
+      60.0,
+      800.0
+     ],
+     "rotation": 0.0,
+     "rotationX": 0.0,
+     "rotationY": 0.0,
+     "scale": [
+      100.0,
+      100.0
+     ],
+     "skew": 0.0,
+     "skewAxis": 0.0
+    },
+    "type": "Text"
+   },
+   {
+    "activeRange": {
+     "duration": 3000,
+     "start": 0
+    },
+    "blendMode": "normal",
+    "id": 2,
+    "name": "Accent bar",
+    "rect": {
+     "fillColor": [
+      1.0,
+      0.42,
+      0.2,
+      1.0
+     ],
+     "fillEnabled": true,
+     "position": [
+      0.0,
+      0.0
+     ],
+     "roundness": 0.0,
+     "size": [
+      600.0,
+      12.0
+     ],
+     "strokeEnabled": false,
+     "strokeWidth": 0.0
+    },
+    "transform": {
+     "anchorPoint": [
+      300.0,
+      6.0
+     ],
+     "opacity": 100.0,
+     "orientation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "position": [
+      540.0,
+      1000.0
+     ],
+     "rotation": 0.0,
+     "rotationX": 0.0,
+     "rotationY": 0.0,
+     "scale": [
+      100.0,
+      100.0
+     ],
+     "skew": 0.0,
+     "skewAxis": 0.0
+    },
+    "type": "Rect"
+   },
+   {
+    "activeRange": {
+     "duration": 3000,
+     "start": 0
+    },
+    "blendMode": "normal",
+    "id": 1,
+    "name": "Background",
+    "rect": {
+     "fillColor": [
+      0.06,
+      0.06,
+      0.09,
+      1.0
+     ],
+     "fillEnabled": true,
+     "position": [
+      0.0,
+      0.0
+     ],
+     "roundness": 0.0,
+     "size": [
+      1080.0,
+      1920.0
+     ],
+     "strokeEnabled": false,
+     "strokeWidth": 0.0
+    },
+    "transform": {
+     "anchorPoint": [
+      0.0,
+      0.0
+     ],
+     "opacity": 100.0,
+     "orientation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "position": [
+      0.0,
+      0.0
+     ],
+     "rotation": 0.0,
+     "rotationX": 0.0,
+     "rotationY": 0.0,
+     "scale": [
+      100.0,
+      100.0
+     ],
+     "skew": 0.0,
+     "skewAxis": 0.0
+    },
+    "type": "Rect"
+   },
+   {
+    "type": "Audio",
+    "id": 10,
+    "name": "Bar whoosh",
+    "activeRange": {
+     "start": 0,
+     "duration": 450
+    },
+    "sourceRange": {
+     "start": 0,
+     "duration": 450
+    },
+    "sourceIntrinsicDuration": 450,
+    "source": {
+     "assetId": "sfx-whoosh"
+    },
+    "volume": 0.5,
+    "captionsEnabled": false
+   }
+  ],
+  "name": "Main"
+ }
+}
