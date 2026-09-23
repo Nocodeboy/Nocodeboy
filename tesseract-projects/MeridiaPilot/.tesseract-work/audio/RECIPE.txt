@@ -1,0 +1,1 @@
+Narration mastering: highpass 80 Hz, compressor 2.5:1 at -24 dB, loudnorm I=-16 TP=-2.5 LRA=7 (ffmpeg). Originals in Sources/voice.

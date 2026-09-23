@@ -1,0 +1,322 @@
+{
+ "layers": [
+  {
+   "type": "Audio",
+   "id": 901,
+   "name": "Narration vo1",
+   "activeRange": {
+    "start": 3400,
+    "duration": 6080
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 6080
+   },
+   "sourceIntrinsicDuration": 6080,
+   "source": {
+    "assetId": "vo-vo1"
+   },
+   "volume": 0.75,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 902,
+   "name": "Narration vo2",
+   "activeRange": {
+    "start": 10000,
+    "duration": 8190
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 8190
+   },
+   "sourceIntrinsicDuration": 8190,
+   "source": {
+    "assetId": "vo-vo2"
+   },
+   "volume": 0.75,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 903,
+   "name": "Narration vo3",
+   "activeRange": {
+    "start": 18700,
+    "duration": 8620
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 8620
+   },
+   "sourceIntrinsicDuration": 8620,
+   "source": {
+    "assetId": "vo-vo3"
+   },
+   "volume": 0.75,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 904,
+   "name": "Narration vo4",
+   "activeRange": {
+    "start": 27800,
+    "duration": 5310
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 5310
+   },
+   "sourceIntrinsicDuration": 5310,
+   "source": {
+    "assetId": "vo-vo4"
+   },
+   "volume": 0.75,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 905,
+   "name": "Narration vo5",
+   "activeRange": {
+    "start": 33600,
+    "duration": 7040
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 7040
+   },
+   "sourceIntrinsicDuration": 7040,
+   "source": {
+    "assetId": "vo-vo5"
+   },
+   "volume": 0.75,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 906,
+   "name": "Narration vo6",
+   "activeRange": {
+    "start": 41100,
+    "duration": 7040
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 7040
+   },
+   "sourceIntrinsicDuration": 7040,
+   "source": {
+    "assetId": "vo-vo6"
+   },
+   "volume": 0.75,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 907,
+   "name": "Music bed (procedural placeholder)",
+   "activeRange": {
+    "start": 0,
+    "duration": 50500
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 50500
+   },
+   "sourceIntrinsicDuration": 51000,
+   "source": {
+    "assetId": "music-bed"
+   },
+   "volume": 0.5,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 908,
+   "name": "Ident riser",
+   "activeRange": {
+    "start": 2100,
+    "duration": 1100
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 1100
+   },
+   "sourceIntrinsicDuration": 1100,
+   "source": {
+    "assetId": "sfx-riser"
+   },
+   "volume": 0.55,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 909,
+   "name": "Ident impact",
+   "activeRange": {
+    "start": 3150,
+    "duration": 400
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 400
+   },
+   "sourceIntrinsicDuration": 400,
+   "source": {
+    "assetId": "sfx-impact"
+   },
+   "volume": 0.8,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 910,
+   "name": "Wipe whoosh 2",
+   "activeRange": {
+    "start": 9600,
+    "duration": 450
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 450
+   },
+   "sourceIntrinsicDuration": 450,
+   "source": {
+    "assetId": "sfx-whoosh"
+   },
+   "volume": 0.35,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 911,
+   "name": "Wipe whoosh 3",
+   "activeRange": {
+    "start": 18200,
+    "duration": 450
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 450
+   },
+   "sourceIntrinsicDuration": 450,
+   "source": {
+    "assetId": "sfx-whoosh"
+   },
+   "volume": 0.35,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 912,
+   "name": "Wipe whoosh 4",
+   "activeRange": {
+    "start": 27300,
+    "duration": 450
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 450
+   },
+   "sourceIntrinsicDuration": 450,
+   "source": {
+    "assetId": "sfx-whoosh"
+   },
+   "volume": 0.35,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 913,
+   "name": "Wipe whoosh 5",
+   "activeRange": {
+    "start": 33100,
+    "duration": 450
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 450
+   },
+   "sourceIntrinsicDuration": 450,
+   "source": {
+    "assetId": "sfx-whoosh"
+   },
+   "volume": 0.35,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 914,
+   "name": "Wipe whoosh 6",
+   "activeRange": {
+    "start": 40600,
+    "duration": 450
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 450
+   },
+   "sourceIntrinsicDuration": 450,
+   "source": {
+    "assetId": "sfx-whoosh"
+   },
+   "volume": 0.35,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 915,
+   "name": "Outro ping",
+   "activeRange": {
+    "start": 46650,
+    "duration": 480
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 480
+   },
+   "sourceIntrinsicDuration": 480,
+   "source": {
+    "assetId": "sfx-ping"
+   },
+   "volume": 0.4,
+   "captionsEnabled": false
+  }
+ ],
+ "music_id": 907,
+ "vo": [
+  [
+   "vo1",
+   3.4,
+   6.08
+  ],
+  [
+   "vo2",
+   10.0,
+   8.19
+  ],
+  [
+   "vo3",
+   18.7,
+   8.62
+  ],
+  [
+   "vo4",
+   27.8,
+   5.31
+  ],
+  [
+   "vo5",
+   33.6,
+   7.04
+  ],
+  [
+   "vo6",
+   41.1,
+   7.04
+  ]
+ ]
+}
