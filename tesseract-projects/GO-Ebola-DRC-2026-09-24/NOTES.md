@@ -79,3 +79,15 @@
 ## Ficha técnica
 
 H.264 1080×1920 30 fps · AAC 48 kHz · 81 s · exportado con Tesseract 0.2.0 (renderizado por software, FFmpeg externo con libx264).
+
+## Versiones de presentadora (A/B/C)
+
+Mismo audio, grafismo y mezcla en las tres; solo cambia el clip de la entradilla (`PRESENTER_FILE` en `assemble.sh`).
+
+| Versión | Archivo | Presentadora | Coste de la entradilla | Notas |
+|---|---|---|---|---|
+| A | `GO-Ebola-DRC-2026-09-24.mp4` | Retrato propio + Veed Fabric 1.0 (Magnific) | 2.860 cr Magnific | Expresiva, gestos con las manos; sonrisa final (cortada) |
+| B | `GO-Ebola-DRC-2026-09-24-JOGG.mp4` | Avatar público JoggAI "Harper" (1201) con nuestro audio | créditos JoggAI (cuenta rcabrerovaras) | Sobria, plató azul; avatar no exclusivo |
+| C | `GO-Ebola-DRC-2026-09-24-C.mp4` | Retrato propio → clip en reposo Kling 2.5 → Veed Sync 2 (Magnific) | 280 + 1.540 = 1.820 cr Magnific | Seria, sin sonrisa, misma cara que A; 720p reescalado |
+
+JoggAI con nuestro retrato no fue posible: la animación de foto (Motion 2.0 Pro) falló dos veces por "Task timeout" y el lip-sync por API no está incluido en el plan de esa cuenta (código 17005).

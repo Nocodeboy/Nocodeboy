@@ -270,7 +270,7 @@
  "video": {
   "type": "Video",
   "id": 950,
-  "name": "AI presenter (JoggAI public avatar Harper)",
+  "name": "AI presenter (Magnific portrait, Kling idle + Veed Sync 2)",
   "activeRange": {
    "start": 3600,
    "duration": 10000
@@ -279,20 +279,20 @@
    "start": 0,
    "duration": 10000
   },
-  "sourceIntrinsicDuration": 11166,
+  "sourceIntrinsicDuration": 11160,
   "volume": null,
   "transform": {
    "anchorPoint": [
-    540.0,
-    960.0
+    360.0,
+    640.0
    ],
    "position": [
     540,
     960
    ],
    "scale": [
-    100.0,
-    100.0
+    150.0,
+    150.0
    ],
    "rotation": 0,
    "opacity": 100
