@@ -1,0 +1,322 @@
+{
+ "media": [
+  {
+   "type": "Audio",
+   "id": 901,
+   "name": "Narration vo1",
+   "activeRange": {
+    "start": 3600,
+    "duration": 11180
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 11180
+   },
+   "sourceIntrinsicDuration": 11180,
+   "source": {
+    "assetId": "vo-vo1"
+   },
+   "volume": 0.75,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 902,
+   "name": "Narration vo2",
+   "activeRange": {
+    "start": 15200,
+    "duration": 12800
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 12800
+   },
+   "sourceIntrinsicDuration": 12800,
+   "source": {
+    "assetId": "vo-vo2"
+   },
+   "volume": 0.75,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 903,
+   "name": "Narration vo3",
+   "activeRange": {
+    "start": 28400,
+    "duration": 4550
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 4550
+   },
+   "sourceIntrinsicDuration": 4550,
+   "source": {
+    "assetId": "vo-vo3"
+   },
+   "volume": 0.75,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 904,
+   "name": "Narration vo4",
+   "activeRange": {
+    "start": 33400,
+    "duration": 14990
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 14990
+   },
+   "sourceIntrinsicDuration": 14990,
+   "source": {
+    "assetId": "vo-vo4"
+   },
+   "volume": 0.75,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 905,
+   "name": "Narration vo5",
+   "activeRange": {
+    "start": 48800,
+    "duration": 12720
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 12720
+   },
+   "sourceIntrinsicDuration": 12720,
+   "source": {
+    "assetId": "vo-vo5"
+   },
+   "volume": 0.75,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 906,
+   "name": "Narration vo6",
+   "activeRange": {
+    "start": 62000,
+    "duration": 7180
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 7180
+   },
+   "sourceIntrinsicDuration": 7180,
+   "source": {
+    "assetId": "vo-vo6"
+   },
+   "volume": 0.75,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 907,
+   "name": "Narration vo7",
+   "activeRange": {
+    "start": 69600,
+    "duration": 8720
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 8720
+   },
+   "sourceIntrinsicDuration": 8720,
+   "source": {
+    "assetId": "vo-vo7"
+   },
+   "volume": 0.75,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 908,
+   "name": "Music bed (Magnific)",
+   "activeRange": {
+    "start": 0,
+    "duration": 81000
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 81000
+   },
+   "sourceIntrinsicDuration": 81000,
+   "source": {
+    "assetId": "music-bed"
+   },
+   "volume": 0.5,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 909,
+   "name": "Ident sting (Magnific)",
+   "activeRange": {
+    "start": 150,
+    "duration": 3000
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 3000
+   },
+   "sourceIntrinsicDuration": 3030,
+   "source": {
+    "assetId": "sfx-sting"
+   },
+   "volume": 0.42,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 910,
+   "name": "Wipe whoosh 2",
+   "activeRange": {
+    "start": 13300,
+    "duration": 450
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 450
+   },
+   "sourceIntrinsicDuration": 450,
+   "source": {
+    "assetId": "sfx-whoosh"
+   },
+   "volume": 0.3,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 911,
+   "name": "Wipe whoosh 3",
+   "activeRange": {
+    "start": 33000,
+    "duration": 450
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 450
+   },
+   "sourceIntrinsicDuration": 450,
+   "source": {
+    "assetId": "sfx-whoosh"
+   },
+   "volume": 0.3,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 912,
+   "name": "Wipe whoosh 4",
+   "activeRange": {
+    "start": 48400,
+    "duration": 450
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 450
+   },
+   "sourceIntrinsicDuration": 450,
+   "source": {
+    "assetId": "sfx-whoosh"
+   },
+   "volume": 0.3,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 913,
+   "name": "Wipe whoosh 5",
+   "activeRange": {
+    "start": 61600,
+    "duration": 450
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 450
+   },
+   "sourceIntrinsicDuration": 450,
+   "source": {
+    "assetId": "sfx-whoosh"
+   },
+   "volume": 0.3,
+   "captionsEnabled": false
+  },
+  {
+   "type": "Audio",
+   "id": 914,
+   "name": "Wipe whoosh 6",
+   "activeRange": {
+    "start": 69200,
+    "duration": 450
+   },
+   "sourceRange": {
+    "start": 0,
+    "duration": 450
+   },
+   "sourceIntrinsicDuration": 450,
+   "source": {
+    "assetId": "sfx-whoosh"
+   },
+   "volume": 0.3,
+   "captionsEnabled": false
+  }
+ ],
+ "video": {
+  "type": "Video",
+  "id": 950,
+  "name": "AI presenter (Magnific lip-sync)",
+  "activeRange": {
+   "start": 3600,
+   "duration": 10000
+  },
+  "sourceRange": {
+   "start": 0,
+   "duration": 10000
+  },
+  "sourceIntrinsicDuration": 11120,
+  "volume": null,
+  "transform": {
+   "anchorPoint": [
+    368,
+    656
+   ],
+   "position": [
+    540,
+    960
+   ],
+   "scale": [
+    146.8,
+    146.8
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "source": {
+   "assetId": "presenter",
+   "fit": "cover"
+  }
+ },
+ "anchor_group": 14,
+ "background": 2,
+ "audio_actions": [
+  {
+   "type": "setFxPropertyAnimator",
+   "compositionId": "main",
+   "property": {
+    "layerId": 908,
+    "propertyType": "volume"
+   },
+   "dependencies": [],
+   "animator": {
+    "type": "jsScript",
+    "layerTimeJsCode": "var t=input.time.seconds; var hi=0.5, lo=0.12, r=0.3; var v=hi; var S=[[3.60,14.78],[15.20,28.00],[28.40,32.95],[33.40,48.39],[48.80,61.52],[62.00,69.18],[69.60,78.32]];for(var i=0;i<S.length;i++){var a=S[i][0]-r, b=S[i][1]+r; if(t>=a&&t<=b){var k=Math.min(1,(t-a)/r,(b-t)/r); v=Math.min(v,hi+(lo-hi)*Math.max(0,k));}} if(t>78.0) v=v*Math.max(0,(81.0-t)/3); return v;"
+   }
+  }
+ ]
+}

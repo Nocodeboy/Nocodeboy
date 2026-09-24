@@ -1,0 +1,3 @@
+Narration: Sources/voice/voN.mp3 -> highpass 70 Hz, compressor 2:1 at -24 dB, loudnorm I=-16 TP=-2.5 LRA=7 -> voN-master.wav
+Music: Sources/music/news-bed-magnific.mp3 (60 s) -> first 58 s crossfaded (4 s) into the same track from 10 s -> news-bed-81s.wav
+Sting: Sources/sfx/ident-sting-magnific.mp3 -> 48 kHz WAV. Whoosh: tesseract_sound.py air-whoosh, seed 5.
