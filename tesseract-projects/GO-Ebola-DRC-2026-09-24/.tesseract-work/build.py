@@ -356,7 +356,7 @@ h6 = text("Sign-off handle", "@GLOBALOBSHQ", 90, 720, 120, PAPER, 0, sd6, so, w=
 tg = text("Sign-off tagline", "Global news, without the blind spots.", 90, 880, 46, SLATE, 0, sd6, so, style=SEMI, w=900, just="center"); enter(tg, 0.6, 880, dy=20)
 srcs = ("SOURCES\nDRC Ministry of Health via ECDC — update of 23 Sep 2026 (data to 21 Sep)\n"
         "WHO Disease Outbreak News DON617 — 10 Sep 2026 (data to 7 Sep)\n"
-        "Map data: OpenStreetMap contributors (ODbL) via geoBoundaries\nPresenter AI-generated (Magnific portrait, " + PRESENTER_TOOL + "), voice Magnific")
+        "Map data: OpenStreetMap contributors (ODbL) via geoBoundaries\nPresenter AI-generated (" + PRESENTER_TOOL + "), voice Magnific")
 sr = text("Sign-off sources", srcs, 90, 1020, 30, SOFT, 0, sd6, so, style=SEMI, w=900, h=240, just="center", track=1); fade_in(sr, 0.9)
 
 # ================================================================ wipes
