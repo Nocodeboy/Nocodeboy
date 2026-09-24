@@ -283,16 +283,16 @@
   "volume": null,
   "transform": {
    "anchorPoint": [
-    368,
-    656
+    368.0,
+    656.0
    ],
    "position": [
     540,
     960
    ],
    "scale": [
-    146.8,
-    146.8
+    146.74,
+    146.74
    ],
    "rotation": 0,
    "opacity": 100

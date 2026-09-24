@@ -23,6 +23,15 @@ def text(name, s, x, y, size, color, start, end, parent=None, h=None, **kw):
     return grp
 
 TOTAL = 81.0
+# presenter clip: Magnific lip-sync by default; PRESENTER_FILE / PRESENTER_TOOL switch to another take (e.g. JoggAI)
+import os, subprocess
+PRESENTER_FILE = os.environ.get("PRESENTER_FILE", "Sources/presenter/anchor-intro-veed.mp4")
+PRESENTER_TOOL = os.environ.get("PRESENTER_TOOL", "Magnific lip-sync")
+_pr = json.loads(subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height:format=duration",
+                                 "-of", "json", PRESENTER_FILE], capture_output=True, text=True).stdout)
+PW, PH = _pr["streams"][0]["width"], _pr["streams"][0]["height"]
+PDUR = int(float(_pr["format"]["duration"]) * 1000)
+PSCALE = round(100 * max(1080 / PW, 1920 / PH), 2)
 VO = [("vo1", 3.6, 11.18), ("vo2", 15.2, 12.80), ("vo3", 28.4, 4.55), ("vo4", 33.4, 14.99),
       ("vo5", 48.8, 12.72), ("vo6", 62.0, 7.18), ("vo7", 69.6, 8.72)]
 VOS = {v[0]: v[1] for v in VO}
@@ -347,7 +356,7 @@ h6 = text("Sign-off handle", "@GLOBALOBSHQ", 90, 720, 120, PAPER, 0, sd6, so, w=
 tg = text("Sign-off tagline", "Global news, without the blind spots.", 90, 880, 46, SLATE, 0, sd6, so, style=SEMI, w=900, just="center"); enter(tg, 0.6, 880, dy=20)
 srcs = ("SOURCES\nDRC Ministry of Health via ECDC — update of 23 Sep 2026 (data to 21 Sep)\n"
         "WHO Disease Outbreak News DON617 — 10 Sep 2026 (data to 7 Sep)\n"
-        "Map data: OpenStreetMap contributors (ODbL) via geoBoundaries\nPresenter and voice AI-generated (Magnific)")
+        "Map data: OpenStreetMap contributors (ODbL) via geoBoundaries\nPresenter AI-generated (Magnific portrait, " + PRESENTER_TOOL + "), voice Magnific")
 sr = text("Sign-off sources", srcs, 90, 1020, 30, SOFT, 0, sd6, so, style=SEMI, w=900, h=240, just="center", track=1); fade_in(sr, 0.9)
 
 # ================================================================ wipes
@@ -379,11 +388,11 @@ music = audio("Music bed (Magnific)", "music-bed", 0, TOTAL, 0.5, 0, 81.0)
 audio("Ident sting (Magnific)", "sfx-sting", 0.15, 3.0, 0.42, 0, 3.03)
 for k, cut in enumerate(CUTS[1:]):
     audio(f"Wipe whoosh {k+2}", "sfx-whoosh", cut - 0.3, 0.45, 0.3)
-video = {"type": "Video", "id": 950, "name": "AI presenter (Magnific lip-sync)",
+video = {"type": "Video", "id": 950, "name": f"AI presenter ({PRESENTER_TOOL})",
          "activeRange": {"start": ms(s1), "duration": ms(e1 - s1)}, "sourceRange": {"start": ms(s1 - VOS['vo1'] + 0.0) if s1 > VOS['vo1'] else 0, "duration": ms(e1 - s1)},
-         "sourceIntrinsicDuration": 11120, "volume": None,
-         # 736x1312 source scaled to cover 1080x1920 (the layer keeps the source size)
-         "transform": {"anchorPoint": [368, 656], "position": [540, 960], "scale": [146.8, 146.8], "rotation": 0, "opacity": 100},
+         "sourceIntrinsicDuration": PDUR, "volume": None,
+         # source scaled to cover 1080x1920 (the layer keeps the source size)
+         "transform": {"anchorPoint": [PW / 2, PH / 2], "position": [540, 960], "scale": [PSCALE, PSCALE], "rotation": 0, "opacity": 100},
          "source": {"assetId": "presenter", "fit": "cover"}}
 # presenter starts talking with vo1: layer placed so source time 0 == vo1 start
 video["activeRange"] = {"start": ms(VOS["vo1"]), "duration": ms(e1 - VOS["vo1"])}

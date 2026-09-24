@@ -11,7 +11,7 @@ for v in 1 2 3 4 5 6 7; do "$T" project import-asset --project "$P" --file .tess
 "$T" project import-asset --project "$P" --file .tesseract-work/audio/news-bed-81s.wav --asset-id music-bed --kind audio >/dev/null
 "$T" project import-asset --project "$P" --file .tesseract-work/audio/ident-sting.wav --asset-id sfx-sting --kind audio >/dev/null
 "$T" project import-asset --project "$P" --file .tesseract-work/audio/wipe-whoosh.wav --asset-id sfx-whoosh --kind audio >/dev/null
-"$T" project import-video --project "$P" --file Sources/presenter/anchor-intro-veed.mp4 --asset-id presenter >/dev/null
+"$T" project import-video --project "$P" --file "${PRESENTER_FILE:-Sources/presenter/anchor-intro-veed.mp4}" --asset-id presenter >/dev/null
 "$T" project checkout --project "$P" --output .tesseract-work/editable.json >/dev/null
 python3 -c "
 import json; d=json.load(open('.tesseract-work/editable.json')); d['duration']=81.0
@@ -31,5 +31,6 @@ json.dump(m["audio_actions"], open(".tesseract-work/audio_actions.json", "w"))
 PY
 "$T" project commit --project "$P" --file .tesseract-work/editable.json >/dev/null
 "$T" project apply --project "$P" --actions .tesseract-work/audio_actions.json >/dev/null
-mv "$P" GO-Ebola-DRC-2026-09-24.tsrct
-echo built GO-Ebola-DRC-2026-09-24.tsrct
+OUT="${OUT:-GO-Ebola-DRC-2026-09-24}"
+mv "$P" "$OUT.tsrct"
+echo "built $OUT.tsrct"
